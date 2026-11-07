@@ -63,29 +63,7 @@ ETF watchlist (both ETFs sit about 70% of the way between their 52-week low and 
 
 ---
 
-## Project structure
 
-```
-ipo-portfolio-analysis/
-├── data/
-│   ├── applications.csv          # 5 IPO applications: shares, issue price, allotment, listing date
-│   ├── prices_2026-11-06.csv     # market prices used for valuation, with sources
-│   ├── etf_watchlist.csv         # ETFs being evaluated
-│   └── outlook.csv               # my qualitative outlook per holding
-├── sql/
-│   ├── schema.sql                # tables + v_holdings view
-│   └── queries.sql               # 7 analysis queries
-├── src/
-│   └── analysis.py               # builds the database, runs queries, draws charts, writes the report
-├── outputs/
-│   ├── portfolio.db              # SQLite database (generated)
-│   ├── charts/                   # 5 charts (generated)
-│   └── *_one_pager.png           # one-page summaries
-└── reports/
-    └── portfolio_summary.md      # full query results (generated)
-```
-
-## SQL highlights
 
 - A **view** (`v_holdings`) joins applications to the latest price and calculates cost, value, profit and holding days
 - **Subqueries** for each holding's share of capital and of total profit
