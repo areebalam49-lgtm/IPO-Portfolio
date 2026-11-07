@@ -71,23 +71,23 @@ ETF watchlist (both ETFs sit about 70% of the way between their 52-week low and 
 - A **concentration measure** (Herfindahl index) to check diversification
 - 52-week range positioning for the ETF watchlist
 
-Full outputs: [`reports/portfolio_summary.md`](reports/portfolio_summary.md)
+Full outputs: [`portfolio_summary.md`](portfolio_summary.md)
 
 ## How to run
 
 ```bash
 pip install -r requirements.txt
-python src/analysis.py
+python analysis.py
 ```
 
-To update the portfolio, add a new file `data/prices_YYYY-MM-DD.csv` with the latest prices and run the script again. The analysis always uses the most recent price for each stock.
+To update the portfolio, add a new file `prices_YYYY-MM-DD.csv` with the latest prices and run the script again. The analysis always uses the most recent price for each stock.
 
 ---
 
 ## Notes
 
 - All returns are **unrealised** (no shares sold), measured against the issue price, and exclude taxes and brokerage.
-- Prices are public closing prices on 6 Nov 2026; sources are listed in `data/prices_2026-11-06.csv`.
+- Prices are public closing prices on 6 Nov 2026; sources are listed in `prices_2026-11-06.csv`.
 - Personal account details (DP ID, UPI ID, application numbers) are deliberately left out.
 - This is a personal learning project, **not investment advice**.
 
