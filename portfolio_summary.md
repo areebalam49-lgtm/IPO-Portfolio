@@ -1,4 +1,4 @@
-# Portfolio summary (prices as of 2026-11-06)
+# Portfolio summary (prices as of 06-11-2026)
 
 - Applications: 5, allotted: 4 (80% success)
 - Invested: Rs 58,055
