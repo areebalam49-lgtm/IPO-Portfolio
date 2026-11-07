@@ -4,7 +4,7 @@ Tracking and analysing my own investments in Indian mainboard IPOs (Aug–Oct 20
 
 I applied to five IPOs with my own savings, was allotted shares in four, and built this project to measure what worked, what didn't and why.
 
-![Portfolio one-pager](outputs/portfolio_one_pager.png)
+
 
 ---
 
@@ -54,12 +54,12 @@ If an IPO failed this check, I skipped it.
 
 | | |
 |---|---|
-| ![Capital allocation](outputs/charts/1_capital_allocation.png) | ![Returns](outputs/charts/2_returns_by_holding.png) |
-| ![Profit contribution](outputs/charts/3_profit_contribution.png) | ![Invested vs value](outputs/charts/4_invested_vs_value.png) |
+| ![Capital allocation](1_capital_allocation.png) | ![Returns](2_returns_by_holding.png) |
+| ![Profit contribution](3_profit_contribution.png) | ![Invested vs value](4_invested_vs_value.png) |
 
 ETF watchlist (both ETFs sit about 70% of the way between their 52-week low and high):
 
-![ETF watchlist](outputs/charts/5_etf_watchlist.png)
+![ETF watchlist](5_etf_watchlist.png)
 
 ---
 
